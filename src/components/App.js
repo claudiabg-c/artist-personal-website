@@ -11,7 +11,7 @@ const App = () => {
               <a href="#">Gloria Gómez-Calcerrada</a>
             </h1>
           </div>
-          <div className="col">
+          <div className="col d-none">
             <div>
               <h3>Sobre mí</h3>
               <h3>Galería</h3>
@@ -26,8 +26,7 @@ const App = () => {
       <main></main>
       <footer>
         <span>
-          &copy; 2022 Gloria Gómez-Calcerrada Pintora. Todos los derechos
-          reservados
+          &copy; 2022 Gloria Gómez-Calcerrada. Todos los derechos reservados
         </span>
       </footer>
     </div>
