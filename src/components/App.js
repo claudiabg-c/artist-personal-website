@@ -22,27 +22,29 @@ const App = () => {
           <h1 className="nameartist">
             <a href="#">Gloria Gómez-Calcerrada</a>
           </h1>
-          <div
-            className={`menu-toggle ${burger ? "" : "open"}`}
-            onClick={toggleBurgerClass}
-          >
-            <div className="hamburger" onClick={toggleBurgerClass}>
-              <span></span>
-              <span></span>
-              <span></span>
+          <div className="menu-container">
+            <div
+              className={`menu-toggle ${burger ? "" : "open"}`}
+              onClick={toggleBurgerClass}
+            >
+              <div className="hamburger" onClick={toggleBurgerClass}>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div className="cross">
+                <span></span>
+                <span></span>
+              </div>
             </div>
-            <div className="cross">
-              <span></span>
-              <span></span>
+            <div className={`menu ${dNone ? "d-none" : ""}`}>
+              <h3>Sobre mí</h3>
+              <h3>Galería</h3>
+              <h3>Exposiciones</h3>
+              <h3>Otros trabajos</h3>
+              <h3>Contacto</h3>
+              <h3>Carro</h3>
             </div>
-          </div>
-          <div className={`menu ${dNone ? "d-none" : ""}`}>
-            <h3>Sobre mí</h3>
-            <h3>Galería</h3>
-            <h3>Exposiciones</h3>
-            <h3>Otros trabajos</h3>
-            <h3>Contacto</h3>
-            <h3>Carro</h3>
           </div>
         </nav>
       </header>
