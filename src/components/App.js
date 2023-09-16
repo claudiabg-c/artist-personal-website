@@ -14,12 +14,14 @@ const App = () => {
   return (
     <div>
       <header>
-        <nav className="nav row-no-gutters">
-          <div className={`titlebackground col${burger ? "-12" : "-6"}`}>
-            <h1 className="nameartist">
-              <a href="#">Gloria Gómez-Calcerrada</a>
-            </h1>
-          </div>
+        <nav
+          className={`titlebackground nav row-no-gutters col${
+            burger ? "-12" : "-6"
+          }`}
+        >
+          <h1 className="nameartist">
+            <a href="#">Gloria Gómez-Calcerrada</a>
+          </h1>
           <div
             className={`menu-toggle ${burger ? "" : "open"}`}
             onClick={toggleBurgerClass}
@@ -35,14 +37,12 @@ const App = () => {
             </div>
           </div>
           <div className={`menu ${dNone ? "d-none" : ""}`}>
-            <div>
-              <h3>Sobre mí</h3>
-              <h3>Galería</h3>
-              <h3>Exposiciones</h3>
-              <h3>Otros trabajos</h3>
-              <h3>Contacto</h3>
-              <h3>Carro</h3>
-            </div>
+            <h3>Sobre mí</h3>
+            <h3>Galería</h3>
+            <h3>Exposiciones</h3>
+            <h3>Otros trabajos</h3>
+            <h3>Contacto</h3>
+            <h3>Carro</h3>
           </div>
         </nav>
       </header>
