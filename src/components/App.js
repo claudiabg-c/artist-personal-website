@@ -67,7 +67,7 @@ const App = () => {
       </main>
       <footer>
         <span>
-          &copy; 2022 Gloria Gómez-Calcerrada. Todos los derechos reservados
+          &copy; {new Date().getFullYear()} Gloria Gómez-Calcerrada. Todos los derechos reservados
         </span>
       </footer>
     </div>
