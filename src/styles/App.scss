@@ -133,12 +133,14 @@
 main {
   background-color: #e3dfdf;
   padding: 2% 10%;
-  #biography, #exhibits {
-    h1 {
-      text-transform: uppercase;
-      font-size: 26px;
-      letter-spacing: 3px;
-    }
+  h1 {
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 3px;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 22px;
   }
   #exhibits {
     .year {
