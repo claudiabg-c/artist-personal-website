@@ -117,14 +117,16 @@ function Gallery() {
         <section className="gallery">
             <h1>Galería</h1>
             {sectionsData.map((section, index) => (
-                <section key={index} className={section.title.toLowerCase()}>
+                <section key={index} className={section.type}>
                     <h2>{section.title}</h2>
-                    {section.images.map((image, imageIndex) => (
-                        <div key={imageIndex}>
-                            <img src={`images/${section.type}/${image.imageUrl}`} alt={image.altText} />
-                            <p>{image.text}</p>
-                        </div>
-                    ))}
+                    <div className='section-container'>
+                        {section.images.map((image, imageIndex) => (
+                            <div key={imageIndex} className='each-painting'>
+                                <img src={`images/${section.type}/${image.imageUrl}`} alt={image.altText} className='painting-image'/>
+                                <p className='painting-title'>{image.text}</p>
+                            </div>
+                        ))}
+                    </div>
                 </section>
             ))}
         </section>

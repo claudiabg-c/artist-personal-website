@@ -147,6 +147,35 @@ main {
       font-weight: bold;
     }
   }
+  .gallery {
+    .section-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .each-painting {
+        width: 33%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+        .painting-image {
+          width: 100%;
+          min-height: calc(100% - 60px);
+          object-fit: cover;
+          transition: transform 0.5s ease; /* Agrega una transición suave en la propiedad transform */
+          &:hover {
+            object-fit: scale-down;
+            transform: scale(0.95); /* Aplica una escala al hacer hover */
+          }
+        }
+        .painting-title {
+          padding-top: 20px;
+        }
+      }
+    }
+  }
 }
 
 @include tablet {
@@ -157,7 +186,7 @@ main {
 
 @include desktop {
   .titlebackground {
-    height: 100vh;
+    height: 50vh;
   }
 
   .nameartist {
