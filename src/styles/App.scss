@@ -1,5 +1,4 @@
 @import "../styles/Reset.scss";
-
 .nav {
   background-color: black;
   color: white;
@@ -133,6 +132,7 @@
 main {
   background-color: #e3dfdf;
   padding: 2% 10%;
+  min-height: calc(50vh - 24px);
   h1 {
     text-transform: uppercase;
     font-size: 26px;
@@ -164,10 +164,12 @@ main {
           width: 100%;
           min-height: calc(100% - 60px);
           object-fit: cover;
-          transition: transform 0.5s ease; /* Agrega una transición suave en la propiedad transform */
+          transition: transform 0.5s ease;
+          /* Agrega una transición suave en la propiedad transform */
           &:hover {
             object-fit: scale-down;
-            transform: scale(0.95); /* Aplica una escala al hacer hover */
+            transform: scale(0.95);
+            /* Aplica una escala al hacer hover */
           }
         }
         .painting-title {
@@ -175,6 +177,58 @@ main {
         }
       }
     }
+  }
+  .contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      .form-group {
+        margin-bottom: 20px;
+        width: 100%;
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+        input,
+        textarea {
+          width: 100%;
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+        textarea {
+          height: 150px;
+        }
+      }
+      button {
+        display: block;
+        width: 20%;
+        padding: 10px;
+        background-color: #CD2B27;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover {
+          background-color: #82140D;
+        }
+      }
+    }
+  }
+  .thanks {
+    font-size: 26px;
+    text-align: center;
+    padding-top: 10%;
   }
 }
 
@@ -188,7 +242,6 @@ main {
   .titlebackground {
     height: 50vh;
   }
-
   .nameartist {
     font-size: 28px;
   }
