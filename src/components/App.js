@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Route, Switch, Link, useHistory } from "react-router-dom";
 import Gallery from "./Gallery"
 import Biography from "./Biography"
+import Contact from "./Contact"
 import "../styles/App.scss";
 import "../styles/Reset.scss";
 
@@ -28,9 +29,8 @@ const App = () => {
     <div>
       <header>
         <nav
-          className={`titlebackground nav row-no-gutters col${
-            burger ? "-12" : "-6"
-          }`}
+          className={`titlebackground nav row-no-gutters col${burger ? "-12" : "-6"
+            }`}
         >
           <h1 className="nameartist">
             Gloria Gómez-Calcerrada
@@ -57,16 +57,18 @@ const App = () => {
                 <h3>Galería</h3>
               </Link>
               <h3><a href="#other-jobs">Otros trabajos</a></h3>
-              <h3><a href="#">Contacto</a></h3>
-              <h3><a href="#">Carro</a></h3>
+              <Link to="/contact">
+                <h3>Contacto</h3>
+              </Link>
             </div>
           </div>
         </nav>
       </header>
       <main>
         <Switch>
-          <Route path="/" exact component={Biography}/>
-          <Route path="/gallery" component={Gallery}/>
+          <Route path="/" exact component={Biography} />
+          <Route path="/gallery" component={Gallery} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </main>
       <footer>
