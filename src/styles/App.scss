@@ -1,133 +1,131 @@
 @import "../styles/Reset.scss";
 .nav {
-  background-color: black;
   color: white;
   width: 100%;
-}
-
-.titlebackground {
   background: no-repeat center url(../images/acrilico_toro_oscuro.jpg);
   background-size: cover;
   height: 400px;
   display: flex;
   justify-content: space-between;
-}
-
-.nameartist {
-  margin: 10px;
-  text-transform: uppercase;
-  font-size: 24px;
-  letter-spacing: 3px;
-  font-weight: 400;
-  & a {
-    color: white;
-    text-shadow: 0px 0px 2px grey;
-  }
-}
-
-.menu-container {
   position: relative;
-  .menu-toggle {
-    right: 0;
-    top: 0;
-    transition: 0.25s ease-in-out;
-    width: 70px;
-    height: 70px;
-    box-sizing: border-box;
-    position: absolute;
-    z-index: 1;
-    cursor: pointer;
-    span {
-      display: block;
-      background: white;
-      border-radius: 2px;
-    }
-    .hamburger {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      span {
-        width: 30px;
-        height: 3px;
-        position: relative;
-        top: 8px;
-        left: 10px;
-        margin: 5px 0;
-        &:nth-child(1) {
-          transition-delay: 0.5s;
-        }
-        &:nth-child(2) {
-          transition-delay: 0.625s;
-        }
-        &:nth-child(3) {
-          transition-delay: 0.75s;
-        }
-      }
-    }
-    .cross {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      transform: rotate(45deg);
-      span {
-        &:nth-child(1) {
-          height: 0%;
-          width: 3px;
-          position: absolute;
-          top: 30%;
-          left: 18px;
-          transition-delay: 0s;
-        }
-        &:nth-child(2) {
-          width: 0%;
-          height: 3px;
-          position: absolute;
-          left: 6%;
-          top: 35px;
-          transition-delay: 0.25s;
-        }
-      }
-    }
-  }
-  .menu-toggle.open {
-    .hamburger {
-      span {
-        width: 0%;
-        &:nth-child(1) {
-          transition-delay: 0s;
-        }
-        &:nth-child(2) {
-          transition-delay: 0.125s;
-        }
-        &:nth-child(3) {
-          transition-delay: 0.25s;
-        }
-      }
-    }
-    .cross {
-      span {
-        &:nth-child(1) {
-          height: 45%;
-          transition-delay: 0.625s;
-        }
-      }
-      span {
-        &:nth-child(2) {
-          width: 45%;
-          transition-delay: 0.375s;
-        }
-      }
-    }
-  }
-  .menu {
-    padding: 50px 100px 50px 30px;
-    height: 100%;
-    background-color: #00000080;
-    h3 {
-      cursor: pointer;
-    }
+  .nameartist {
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    padding: 10px 30px;
     a {
       color: white;
+      text-shadow: 2px 2px 2px #bbb9b9;
+    }
+  }
+  .menu-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    .menu-toggle {
+      right: 0;
+      transition: 0.25s ease-in-out;
+      width: 70px;
+      height: 70px;
+      box-sizing: border-box;
+      position: absolute;
+      z-index: 1;
+      cursor: pointer;
+      span {
+        display: block;
+        background: white;
+        border-radius: 2px;
+      }
+      .hamburger {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        span {
+          width: 30px;
+          height: 3px;
+          position: relative;
+          top: 8px;
+          left: 10px;
+          margin: 5px 0;
+          &:nth-child(1) {
+            transition-delay: 0.5s;
+          }
+          &:nth-child(2) {
+            transition-delay: 0.625s;
+          }
+          &:nth-child(3) {
+            transition-delay: 0.75s;
+          }
+        }
+      }
+      .cross {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        transform: rotate(45deg);
+        span {
+          &:nth-child(1) {
+            height: 0%;
+            width: 3px;
+            position: absolute;
+            top: 30%;
+            left: 18px;
+            transition-delay: 0s;
+          }
+          &:nth-child(2) {
+            width: 0%;
+            height: 3px;
+            position: absolute;
+            left: 6%;
+            top: 35px;
+            transition-delay: 0.25s;
+          }
+        }
+      }
+    }
+    .menu-toggle.open {
+      .hamburger {
+        span {
+          width: 0%;
+          &:nth-child(1) {
+            transition-delay: 0s;
+          }
+          &:nth-child(2) {
+            transition-delay: 0.125s;
+          }
+          &:nth-child(3) {
+            transition-delay: 0.25s;
+          }
+        }
+      }
+      .cross {
+        span {
+          &:nth-child(1) {
+            height: 45%;
+            transition-delay: 0.625s;
+          }
+        }
+        span {
+          &:nth-child(2) {
+            width: 45%;
+            transition-delay: 0.375s;
+          }
+        }
+      }
+    }
+    .menu {
+      padding: 70px 30px;
+      height: 100%;
+      background-color: #00000080;
+      backdrop-filter: blur(1px);
+      h3 {
+        cursor: pointer;
+      }
+      a {
+        color: white;
+      }
     }
   }
 }
