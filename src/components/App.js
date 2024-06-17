@@ -7,8 +7,8 @@ import "../styles/App.scss";
 import "../styles/Reset.scss";
 
 const App = () => {
-  const [burger, setBurger] = useState("false");
-  const [dNone, setDNone] = useState("true");
+  const [burger, setBurger] = useState(true);
+  const [dNone, setDNone] = useState(true);
 
   const history = useHistory();
 
@@ -28,19 +28,15 @@ const App = () => {
   return (
     <div>
       <header>
-        <nav
-          className={`titlebackground nav row-no-gutters col${burger ? "-12" : "-6"
-            }`}
-        >
+        <nav className={`titlebackground nav row-no-gutters col-${burger ? "12" : "6"}`}>
           <h1 className="nameartist">
-            Gloria Gómez-Calcerrada
+            <Link to="/">
+              Gloria Gómez-Calcerrada
+            </Link>
           </h1>
           <div className="menu-container">
-            <div
-              className={`menu-toggle ${burger ? "" : "open"}`}
-              onClick={toggleBurgerClass}
-            >
-              <div className="hamburger" onClick={toggleBurgerClass}>
+            <div className={`menu-toggle ${burger ? "" : "open"}`} onClick={toggleBurgerClass}>
+              <div className="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -51,8 +47,9 @@ const App = () => {
               </div>
             </div>
             <div className={`menu ${dNone ? "d-none" : ""}`} onClick={toggleBurgerClass}>
-              <h3 onClick={() => scrollToSection("biography")}>Sobre la artista</h3>
-              <h3 onClick={() => scrollToSection("exhibits")}>Exposiciones</h3>
+              <Link to="/">
+                <h3>Sobre la artista</h3>
+              </Link>
               <Link to="/gallery">
                 <h3>Galería</h3>
               </Link>
