@@ -56,7 +56,6 @@ const App = () => {
               <Link to="/gallery">
                 <h3>Galería</h3>
               </Link>
-              <h3><a href="#other-jobs">Otros trabajos</a></h3>
               <Link to="/contact">
                 <h3>Contacto</h3>
               </Link>
