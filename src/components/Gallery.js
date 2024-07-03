@@ -7,24 +7,89 @@ function Gallery() {
             type: 'oil',
             images: [
                 {
-                    imageUrl: 'accidente_mortal.jpg',
-                    altText: 'Accidente mortal',
-                    text: 'Accidente mortal'
+                    imageUrl: 'deportista.jpg',
+                    altText: 'Deportista',
+                    text: 'Deportista'
                 },
                 {
-                    imageUrl: 'autorretrato_1.jpg',
-                    altText: 'Autorretrato 1',
-                    text: 'Autorretrato 1'
-                },
-                {
-                    imageUrl: 'autorretrato_2.jpg',
-                    altText: 'Autorretrato 2',
-                    text: 'Autorretrato 2'
+                    imageUrl: 'torero.jpg',
+                    altText: 'Torero',
+                    text: 'Torero'
                 },
                 {
                     imageUrl: 'albañil.jpg',
                     altText: 'Albañil',
                     text: 'Albañil'
+                },
+                {
+                    imageUrl: 'accidente_mortal.jpg',
+                    altText: 'Accidente mortal',
+                    text: 'Accidente mortal'
+                },
+                {
+                    imageUrl: 'payaso.jpg',
+                    altText: 'Payaso',
+                    text: 'Payaso'
+                },
+                {
+                    imageUrl: 'gitano.jpg',
+                    altText: 'Gitano',
+                    text: 'Gitano'
+                },
+                {
+                    imageUrl: 'autorretrato_1.jpg',
+                    altText: 'Autorretrato',
+                    text: 'Autorretrato'
+                },
+                {
+                    imageUrl: 'autorretrato_2.jpg',
+                    altText: 'Autorretrato (2)',
+                    text: 'Autorretrato (2)'
+                },
+                {
+                    imageUrl: 'autorretrato_3.jpg',
+                    altText: 'Autorretrato (3)',
+                    text: 'Autorretrato (3)'
+                },
+                {
+                    imageUrl: 'autorretrato_4.jpg',
+                    altText: 'Autorretrato (4)',
+                    text: 'Autorretrato (4)'
+                },
+                {
+                    imageUrl: 'retrato_de_je.jpg',
+                    altText: 'Retrato de Je',
+                    text: 'Retrato de Je'
+                },
+                {
+                    imageUrl: 'retrato_de_mercedes.jpg',
+                    altText: 'Retrato de Mercedes',
+                    text: 'Retrato de Mercedes'
+                },
+                {
+                    imageUrl: 'bodegon.jpg',
+                    altText: 'Bodegón',
+                    text: 'Bodegón'
+                },
+                {
+                    imageUrl: 'bodegon_2.jpg',
+                    altText: 'Bodegón (2)',
+                    text: 'Bodegón (2)'
+                },
+                {
+                    imageUrl: 'bodegon_3.jpg',
+                    altText: 'Bodegón (3)',
+                    text: 'Bodegón (3)'
+                },
+                {
+                    imageUrl: 'mujer_loca.jpg',
+                    altText: 'Mujer loca',
+                    text: 'Mujer loca'
+                },
+                {
+                    imageUrl: 'nina.jpg',
+                    altText: 'Niña',
+                    text: 'Niña'
                 },
                 {
                     imageUrl: 'arboles_en_azul.jpg',
