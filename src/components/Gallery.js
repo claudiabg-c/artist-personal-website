@@ -38,6 +38,16 @@ function Gallery() {
             type: 'acrylic',
             images: [
                 {
+                    imageUrl: 'espana.jpg',
+                    altText: 'España',
+                    text: 'España'
+                },
+                {
+                    imageUrl: 'espana_2.jpg',
+                    altText: 'España (2)',
+                    text: 'España (2)'
+                },
+                {
                     imageUrl: 'toro.jpg',
                     altText: 'Toro',
                     text: 'Toro'
@@ -53,14 +63,34 @@ function Gallery() {
                     text: 'Del mar'
                 },
                 {
-                    imageUrl: 'del_parque.jpg',
-                    altText: 'Del parque',
-                    text: 'Del parque'
+                    imageUrl: 'pajares.jpg',
+                    altText: 'Pajares',
+                    text: 'Pajares'
                 },
                 {
                     imageUrl: 'en_medio_de_tanta_soledad.jpg',
                     altText: 'En medio de tanta soledad',
                     text: 'En medio de tanta soledad'
+                },
+                {
+                    imageUrl: 'exotica.jpg',
+                    altText: 'Exótica',
+                    text: 'Exótica'
+                },
+                {
+                    imageUrl: 'hay_un_pueblo.jpg',
+                    altText: 'Hay un pueblo',
+                    text: 'Hay un pueblo'
+                },
+                {
+                    imageUrl: 'si_que_hay_alguien.jpg',
+                    altText: 'Sí que hay alguien',
+                    text: 'Sí que hay alguien'
+                },
+                {
+                    imageUrl: 'del_parque.jpg',
+                    altText: 'Del parque',
+                    text: 'Del parque'
                 }
             ],
         },
