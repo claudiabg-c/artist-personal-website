@@ -132,7 +132,7 @@
 
 main {
   background-color: #e3dfdf;
-  padding: 2% 10%;
+  padding: 2% 10% 100px;
   min-height: calc(50vh - 24px);
   h1 {
     text-transform: uppercase;
@@ -171,11 +171,11 @@ main {
           min-height: calc(100% - 60px);
           object-fit: cover;
           transition: transform 0.5s ease;
-          /* Agrega una transición suave en la propiedad transform */
+         
           &:hover {
             object-fit: scale-down;
             transform: scale(0.95);
-            /* Aplica una escala al hacer hover */
+           
           }
         }
         .painting-title {
@@ -236,6 +236,22 @@ main {
     text-align: center;
     padding-top: 10%;
   }
+}
+
+footer {
+  background-color: #282828;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  box-shadow: 0 -2px 10px #0000004d;
+}
+
+footer span {
+  display: inline-block;
+  margin: 0;
 }
 
 @include tablet {
