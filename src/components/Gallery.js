@@ -12,16 +12,6 @@ function Gallery() {
                     text: 'Accidente mortal'
                 },
                 {
-                    imageUrl: 'albañil.jpg',
-                    altText: 'Albañil',
-                    text: 'Albañil'
-                },
-                {
-                    imageUrl: 'arboles_en_azul.jpg',
-                    altText: 'Árboles en azul',
-                    text: 'Árboles en azul'
-                },
-                {
                     imageUrl: 'autorretrato_1.jpg',
                     altText: 'Autorretrato 1',
                     text: 'Autorretrato 1'
@@ -30,6 +20,16 @@ function Gallery() {
                     imageUrl: 'autorretrato_2.jpg',
                     altText: 'Autorretrato 2',
                     text: 'Autorretrato 2'
+                },
+                {
+                    imageUrl: 'albañil.jpg',
+                    altText: 'Albañil',
+                    text: 'Albañil'
+                },
+                {
+                    imageUrl: 'arboles_en_azul.jpg',
+                    altText: 'Árboles en azul',
+                    text: 'Árboles en azul'
                 }
             ]
         },
@@ -74,11 +74,6 @@ function Gallery() {
                     text: 'Ángeles'
                 },
                 {
-                    imageUrl: 'bodegon.jpg',
-                    altText: 'Bodegón',
-                    text: 'Bodegón'
-                },
-                {
                     imageUrl: 'de_cuento_1.jpg',
                     altText: 'De cuento 1',
                     text: 'De cuento 1'
@@ -87,6 +82,11 @@ function Gallery() {
                     imageUrl: 'de_cuento_2.jpg',
                     altText: 'De cuento 2',
                     text: 'De cuento 2'
+                },
+                {
+                    imageUrl: 'bodegon.jpg',
+                    altText: 'Bodegón',
+                    text: 'Bodegón'
                 },
                 {
                     imageUrl: 'de_la_flor.jpg',
@@ -119,11 +119,11 @@ function Gallery() {
             {sectionsData.map((section, index) => (
                 <section key={index} className={section.type}>
                     <h2>{section.title}</h2>
-                    <div className='section-container'>
+                    <div className="section-container">
                         {section.images.map((image, imageIndex) => (
-                            <div key={imageIndex} className='each-painting'>
-                                <img src={`images/${section.type}/${image.imageUrl}`} alt={image.altText} className='painting-image'/>
-                                <p className='painting-title'>{image.text}</p>
+                            <div key={imageIndex} className="each-painting">
+                                <img src={`images/${section.type}/${image.imageUrl}`} alt={image.altText} className="painting-image" />
+                                <p className="painting-title">{image.text}</p>
                             </div>
                         ))}
                     </div>
