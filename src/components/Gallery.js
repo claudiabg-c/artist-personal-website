@@ -164,6 +164,126 @@ function Gallery() {
             type: 'engraving',
             images: [
                 {
+                    imageUrl: 'la_noche.jpg',
+                    altText: 'La noche',
+                    text: 'La noche'
+                },
+                {
+                    imageUrl: 'cabeza_y_pajaros.jpg',
+                    altText: 'Cabeza y pájaros',
+                    text: 'Cabeza y pájaros'
+                },
+                {
+                    imageUrl: 'de_pajaros.jpg',
+                    altText: 'De pájaros',
+                    text: 'De pájaros'
+                },
+                {
+                    imageUrl: 'cardos.jpg',
+                    altText: 'Cardos',
+                    text: 'Cardos'
+                },
+                {
+                    imageUrl: 'cardos_2.jpg',
+                    altText: 'Cardos (2)',
+                    text: 'Cardos (2)'
+                },
+                {
+                    imageUrl: 'del_arbol_caido.jpg',
+                    altText: 'Del árbol caído',
+                    text: 'Del árbol caído'
+                },
+                {
+                    imageUrl: 'del_arte_japones.jpg',
+                    altText: 'Del arte japonés',
+                    text: 'Del arte japonés'
+                },
+                {
+                    imageUrl: 'del_arte_japones_2.jpg',
+                    altText: 'Del arte japonés (2)',
+                    text: 'Del arte japonés (2)'
+                },
+                {
+                    imageUrl: 'del_campo.jpg',
+                    altText: 'Del campo',
+                    text: 'Del campo'
+                },
+                {
+                    imageUrl: 'los_pajaros.jpg',
+                    altText: 'Los pájaros',
+                    text: 'Los pájaros'
+                },
+                {
+                    imageUrl: 'de_la_tierra.jpg',
+                    altText: 'De la tierra',
+                    text: 'De la tierra'
+                },
+                {
+                    imageUrl: 'del_arbusto.jpg',
+                    altText: 'Del arbusto',
+                    text: 'Del arbusto'
+                },
+                {
+                    imageUrl: 'hojas_encontradas.jpg',
+                    altText: 'Hojas encontradas',
+                    text: 'Hojas encontradas'
+                },
+                {
+                    imageUrl: 'puesta_de_sol.jpg',
+                    altText: 'Puesta de sol',
+                    text: 'Puesta de sol'
+                },
+                {
+                    imageUrl: 'mare_nostrum.jpg',
+                    altText: 'Mare nostrum',
+                    text: 'Mare nostrum'
+                },
+                {
+                    imageUrl: 'del_jardin.jpg',
+                    altText: 'Del jardín',
+                    text: 'Del jardín'
+                },
+                {
+                    imageUrl: 'humedal.jpg',
+                    altText: 'Humedal',
+                    text: 'Humedal'
+                },
+                {
+                    imageUrl: 'paisaje.jpg',
+                    altText: 'Paisaje',
+                    text: 'Paisaje'
+                },
+                {
+                    imageUrl: 'soledad.jpg',
+                    altText: 'Soledad',
+                    text: 'Soledad'
+                },
+                {
+                    imageUrl: 'soledad_2.jpg',
+                    altText: 'Soledad (2)',
+                    text: 'Soledad (2)'
+                },
+                {
+                    imageUrl: 'de_la_flor.jpg',
+                    altText: 'De la flor',
+                    text: 'De la flor'
+                },
+                {
+                    imageUrl: 'el_espino.jpg',
+                    altText: 'El espino',
+                    text: 'El espino'
+                },
+                {
+                    imageUrl: 'del_toro_y_la_luna.jpg',
+                    altText: 'Del toro y la luna',
+                    text: 'Del toro y la luna'
+                },
+                {
+                    imageUrl: 'bodegon.jpg',
+                    altText: 'Bodegón',
+                    text: 'Bodegón'
+                },
+                {
                     imageUrl: 'angeles.jpg',
                     altText: 'Ángeles',
                     text: 'Ángeles'
@@ -177,16 +297,6 @@ function Gallery() {
                     imageUrl: 'de_cuento_2.jpg',
                     altText: 'De cuento 2',
                     text: 'De cuento 2'
-                },
-                {
-                    imageUrl: 'bodegon.jpg',
-                    altText: 'Bodegón',
-                    text: 'Bodegón'
-                },
-                {
-                    imageUrl: 'de_la_flor.jpg',
-                    altText: 'De la flor',
-                    text: 'De la flor'
                 }
             ],
         },
