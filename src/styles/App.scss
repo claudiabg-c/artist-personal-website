@@ -1,4 +1,10 @@
 @import "../styles/Reset.scss";
+#root {
+  height: 100%;
+  .app {
+    height: 100%;
+  }
+}
 .nav {
   color: white;
   width: 100%;
@@ -133,7 +139,7 @@
 main {
   background-color: #e3dfdf;
   padding: 2% 10% 100px;
-  min-height: calc(50vh - 24px);
+  min-height: calc(100% - 61px);
   h1 {
     text-transform: uppercase;
     font-size: 26px;
@@ -149,7 +155,7 @@ main {
     color: white;
     .welcome-message {
       padding: 20px;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(116, 42, 42, 0.778);
     }
     .nav-button {
       margin: 10px;
@@ -176,10 +182,9 @@ main {
           height: auto;
           width: 100%;
           height: 100%;
-          margin: 0 10px;
+          margin: 0 5px;
           div {
             background-size: cover;
-            border-radius: 10px;
             width: 100%;
             height: 100%;
             background-position: center;
