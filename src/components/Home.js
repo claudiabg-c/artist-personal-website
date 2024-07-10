@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-
 const Home = () => {
     const responsive = {
         superLargeDesktop: {
@@ -42,23 +41,28 @@ const Home = () => {
                 </nav>
             </div>
             <div className="highlight-gallery">
-                <Carousel responsive={responsive}>
-                    <div class="carousel-container">
+                <Carousel
+                    responsive={responsive}
+                    autoPlay={true}
+                    autoPlaySpeed={4000}
+                    infinite={true}
+                >
+                    <div className="carousel-container">
                         <div className="carousel-img image-1"></div>
                     </div>
-                    <div class="carousel-container">
+                    <div className="carousel-container">
                         <div className="carousel-img image-2"></div>
                     </div>
-                    <div class="carousel-container">
+                    <div className="carousel-container">
                         <div className="carousel-img image-3"></div>
                     </div>
-                    <div class="carousel-container">
+                    <div className="carousel-container">
                         <div className="carousel-img image-4"></div>
                     </div>
-                    <div class="carousel-container">
+                    <div className="carousel-container">
                         <div className="carousel-img image-5"></div>
                     </div>
-                    <div class="carousel-container">
+                    <div className="carousel-container">
                         <div className="carousel-img image-6"></div>
                     </div>
                 </Carousel>
