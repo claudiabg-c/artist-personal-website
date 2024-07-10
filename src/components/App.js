@@ -1,8 +1,9 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Route, Switch, Link, useHistory } from "react-router-dom";
-import Gallery from "./Gallery"
-import Biography from "./Biography"
-import Contact from "./Contact"
+import Home from "./Home";
+import Gallery from "./Gallery";
+import Biography from "./Biography";
+import Contact from "./Contact";
 import "../styles/App.scss";
 import "../styles/Reset.scss";
 
@@ -15,14 +16,6 @@ const App = () => {
   function toggleBurgerClass() {
     setBurger(!burger);
     setDNone(!dNone);
-  }
-
-  function scrollToSection(sectionId) {
-    history.push('/');
-    const sectionElement = document.getElementById(sectionId);
-    if (sectionElement) {
-      sectionElement.scrollIntoView({ behavior: 'smooth' });
-    }
   }
 
   return (
@@ -47,7 +40,7 @@ const App = () => {
               </div>
             </div>
             <div className={`menu ${dNone ? "d-none" : ""}`} onClick={toggleBurgerClass}>
-              <Link to="/">
+              <Link to="/biography">
                 <h3>Sobre la artista</h3>
               </Link>
               <Link to="/gallery">
@@ -62,7 +55,8 @@ const App = () => {
       </header>
       <main>
         <Switch>
-          <Route path="/" exact component={Biography} />
+          <Route path="/" exact component={Home} />
+          <Route path="/biography" component={Biography} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/contact" component={Contact} />
         </Switch>
