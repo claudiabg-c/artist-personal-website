@@ -17,7 +17,7 @@ function Gallery() {
                     text: 'Torero'
                 },
                 {
-                    imageUrl: 'albañil.jpg',
+                    imageUrl: 'albanil.jpg',
                     altText: 'Albañil',
                     text: 'Albañil'
                 },
