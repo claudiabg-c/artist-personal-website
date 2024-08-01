@@ -153,6 +153,7 @@ main {
     position: relative;
     text-align: center;
     color: white;
+    padding-top: 30px;
     .welcome-message {
       padding: 20px;
       background-color: rgba(116, 42, 42, 0.778);
@@ -223,28 +224,24 @@ main {
   }
   .gallery {
     text-align: center;
-    padding: 20px;
-
+    padding: 20px 0;
     h1 {
       font-size: 2.5em;
       margin-bottom: 20px;
       color: #333;
     }
-
     h2 {
       font-size: 2em;
       margin-top: 40px;
       margin-bottom: 20px;
       color: #666;
     }
-
     .section-container {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       gap: 20px;
-      padding: 20px;
+      padding: 20px 0;
     }
-
     .each-painting {
       background: #fff;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
