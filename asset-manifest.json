@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/artist-personal-website/static/css/main.d36572c0.css",
+    "main.css": "/artist-personal-website/static/css/main.a08414e4.css",
     "main.js": "/artist-personal-website/static/js/main.d657a6ae.js",
     "static/media/acrilico_toro_oscuro.jpg": "/artist-personal-website/static/media/acrilico_toro_oscuro.24e5f1c8e4ec88e83733.jpg",
     "static/media/del_parque.jpg": "/artist-personal-website/static/media/del_parque.a0c044b109a3c7cc4287.jpg",
@@ -13,11 +13,11 @@
     "static/media/revicons.ttf": "/artist-personal-website/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/artist-personal-website/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/artist-personal-website/index.html",
-    "main.d36572c0.css.map": "/artist-personal-website/static/css/main.d36572c0.css.map",
+    "main.a08414e4.css.map": "/artist-personal-website/static/css/main.a08414e4.css.map",
     "main.d657a6ae.js.map": "/artist-personal-website/static/js/main.d657a6ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.d36572c0.css",
+    "static/css/main.a08414e4.css",
     "static/js/main.d657a6ae.js"
   ]
 }
