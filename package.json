@@ -1,6 +1,6 @@
 {
   "name": "react-starter-kit",
-  "homepage": "./",
+  "homepage": "https://claudiabg-c.github.io/artist-personal-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,6 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "npm run build && cp -r build/* ./ && rm -rf build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "githubpages": "rm -rf build && rm -rf docs && npm run build && mv build docs && git add docs/* && git commit -m \"Publish in GitHub Pages\" && git push"
@@ -43,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.3.3"
+    "@types/react-router-dom": "^5.3.3",
+    "gh-pages": "^6.1.1"
   }
 }
