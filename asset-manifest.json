@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/artist-personal-website/static/css/main.d36572c0.css",
+    "main.js": "/artist-personal-website/static/js/main.d657a6ae.js",
+    "static/media/acrilico_toro_oscuro.jpg": "/artist-personal-website/static/media/acrilico_toro_oscuro.24e5f1c8e4ec88e83733.jpg",
+    "static/media/del_parque.jpg": "/artist-personal-website/static/media/del_parque.a0c044b109a3c7cc4287.jpg",
+    "static/media/accidente_mortal.jpg": "/artist-personal-website/static/media/accidente_mortal.bd780e31461450de7d1c.jpg",
+    "static/media/asturias.jpg": "/artist-personal-website/static/media/asturias.5e39769562783fba38dd.jpg",
+    "static/media/cabeza_y_pajaros.jpg": "/artist-personal-website/static/media/cabeza_y_pajaros.ba35df3ec56a6140858d.jpg",
+    "static/media/albanil.jpg": "/artist-personal-website/static/media/albanil.68536b461806363efa28.jpg",
+    "static/media/cardos.jpg": "/artist-personal-website/static/media/cardos.abbbb9ed8013153fbd3e.jpg",
+    "static/media/revicons.eot": "/artist-personal-website/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/artist-personal-website/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/artist-personal-website/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/artist-personal-website/index.html",
+    "main.d36572c0.css.map": "/artist-personal-website/static/css/main.d36572c0.css.map",
+    "main.d657a6ae.js.map": "/artist-personal-website/static/js/main.d657a6ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d36572c0.css",
+    "static/js/main.d657a6ae.js"
+  ]
+}
