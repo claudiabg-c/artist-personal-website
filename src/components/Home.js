@@ -26,8 +26,8 @@ const Home = () => {
     return (
         <div className="home" id="home">
             <div className="welcome-message">
-                <h1>Bienvenido a la Galería de Gloria Gómez-Calcerrada</h1>
-                <p>Explora el mundo de la creatividad y la pasión a través de las obras de Gloria.</p>
+                <h1>Bienvenido a la galería de Gloria Gómez-Calcerrada</h1>
+                <p>Explora el mundo de la creatividad y la pasión a través de sus obras</p>
                 <nav>
                     <Link to="/biography">
                         <button className="nav-button">Sobre la artista</button>
